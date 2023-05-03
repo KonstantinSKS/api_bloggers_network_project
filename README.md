@@ -39,25 +39,6 @@ python3 manage.py migrate
 ```
 python3 manage.py runserver
 ```
-## После запуска сервера документация к API будет доступна по ссылке:
+
+После запуска сервера документация к API будет доступна по ссылке:
 http://127.0.0.1:8000/redoc/
-
-Установка
-Клонировать репозиторий и перейти в него в командной строке:
-
-git clone <git link>
-cd api_final_yatube
-Cоздать и активировать виртуальное окружение:
-
-python -m venv env
-source env/bin/activate
-python -m pip install --upgrade pip
-Установить зависимости из файла requirements.txt:
-
-pip install -r requirements.txt
-Выполнить миграции:
-
-python manage.py migrate
-Запустить проект:
-
-python manage.py runserver
