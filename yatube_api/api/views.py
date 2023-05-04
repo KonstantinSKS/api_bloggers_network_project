@@ -9,7 +9,7 @@ from posts.models import Group, Post
 from .permissions import AuthorOrReadOnly
 from .serializers import (GroupSerializer, PostSerializer,
                           CommentSerializer, FollowSerializer)
-from .viewsets import Only_Get_Post_ViewSet
+from .viewsets import OnlyGetPostViewSet
 
 
 class GroupViewSet(viewsets.ReadOnlyModelViewSet):
@@ -42,7 +42,7 @@ class CommentViewSet(viewsets.ModelViewSet):
         serializer.save(author=self.request.user, post=self.get_post())
 
 
-class FollowViewSet(Only_Get_Post_ViewSet):
+class FollowViewSet(OnlyGetPostViewSet):
     serializer_class = FollowSerializer
     permission_classes = (IsAuthenticated,)
     filter_backends = (filters.SearchFilter,)
