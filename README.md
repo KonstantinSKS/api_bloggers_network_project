@@ -20,7 +20,7 @@ cd api_bloggers_network_project
 ```
 Cоздать и активировать виртуальное окружение:
 ```
-python3 -m venv env
+python -m venv env
 ```
 ```
 source env/bin/activate
