@@ -4,6 +4,7 @@ pytest-pythonpath==0.7.3
 pytest-django==4.4.0
 djangorestframework==3.12.4
 djangorestframework-simplejwt==4.7.2
+djoser==2.1.0
 Pillow==9.3.0
 PyJWT==2.1.0
 requests==2.26.0
