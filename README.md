@@ -20,10 +20,10 @@ cd api_bloggers_network_project
 ```
 Cоздать и активировать виртуальное окружение:
 ```
-python -m venv env
+py -3.9 -m venv venv
 ```
 ```
-source env/Scripts/activate
+source venv/Scripts/activate
 ```
 Установить зависимости из файла requirements.txt:
 ```
