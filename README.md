@@ -5,7 +5,7 @@ API для api_bloggers_network_project представляет собой back
 публиковать записи, комментировать записи, а так же подписываться или отписываться от авторов, выполнять поиск по подпискам.
 
 ## Технологии:
-- Python 3.7
+- Python 3.9
 - Django 3.2
 - djangorestframework
 - JWT + Djoser
